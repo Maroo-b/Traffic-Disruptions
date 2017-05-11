@@ -13,6 +13,14 @@ function initMap() {
     zoom: Settings.zoom
   });
 
+  var pins = $("#pins_data").data().pins;
+
+  pins.forEach(function(item){
+    var marker = new google.maps.Marker({
+      position: {lat: item.lat, lng: item.lng},
+      map: map
+    });
+  })
 }
 google.maps.event.addDomListener(window, "load", initMap);
 
