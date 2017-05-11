@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root xmlns="http://www.tfl.gov.uk/tims/1.0">
+    <Header>
+        <Identifier>Transport for London | Live Traffic Disruptions</Identifier>
+        <DisplayTitle>Transport for London | Traffic Information Management System (TIMS) Feed</DisplayTitle>
+        <Version>2.0</Version>
+        <PublishDateTime canonical="2017-05-11T18:12:00Z">Thursday, 11 May 2017 19:12:00 +01:00</PublishDateTime>
+        <Author>digital@tfl.gov.uk</Author>
+        <Owner>Transport for London</Owner>
+        <RefreshRate>5</RefreshRate>
+        <Max_Latency>30</Max_Latency>
+        <TimeToError>30</TimeToError>
+        <Schedule>Every 5 minutes</Schedule>
+        <Attribution>
+            <Url>http://www.tfl.gov.uk/</Url>
+            <Text>(c) Transport for London</Text>
+            <Logo>http://www.tfl.gov.uk/tfl-global/images/roundel.gif</Logo>
+        </Attribution>
+        <Language>EN</Language>
+    </Header>
+    <Disruptions>
+        <Disruption id='154555'>
+            <status>Active</status>
+            <severity>Moderate</severity>
+            <levelOfInterest>Medium</levelOfInterest>
+            <category>Works</category>
+            <subCategory>Utility</subCategory>
+            <startTime>2017-04-02T07:00:00Z</startTime>
+            <endTime>2017-06-15T22:59:00Z</endTime>
+            <location>[A302,A4] Grosvenor Place (SW1W,SW1X) (Westminster)</location>
+            <corridor>Inner Ring</corridor>
+            <comments>[A302] Grosvenor Place (SW1) (Northbound) between Halkin Street and Grosvenor Crescent - The bus lane is closed for works. </comments>
+            <currentUpdate>Traffic is slow northbound on Grosvenor Place with tailbacks Approaching Hobart Place. Park Lane is slow moving southbound onto Hyde Park Corner. Expect delays.</currentUpdate>
+            <remarkTime>2017-05-11T17:44:03Z</remarkTime>
+            <lastModTime>2017-05-11T17:44:03Z</lastModTime>
+            <CauseArea>
+                <DisplayPoint>
+                    <Point>
+                        <coordinatesEN>528412,179711</coordinatesEN>
+                        <coordinatesLL>-.151322,51.501686</coordinatesLL>
+                    </Point>
+                </DisplayPoint>
+                <Streets>
+                    <Street>
+                        <name>A4 (W1J)</name>
+                        <closure>Open</closure>
+                        <directions>All Directions</directions>
+                        <Link>
+                            <toid>4000000030237881</toid>
+                            <Line>
+                                <coordinatesEN>528510.912,179796.062,528420,179738</coordinatesEN>
+                                <coordinatesLL>-.149867,51.502428,-.151197,51.501927</coordinatesLL>
+                            </Line>
+                        </Link>
+                        <Link>
+                            <toid>4000000030342607</toid>
+                            <Line>
+                                <coordinatesEN>528420,179738,528381,179736</coordinatesEN>
+                                <coordinatesLL>-.151197,51.501927,-.15176,51.501917</coordinatesLL>
+                            </Line>
+                        </Link>
+                    </Street>
+                    <Street>
+                        <name>[B310] Grosvenor Crescent (SW1X)</name>
+                        <closure>Open</closure>
+                        <directions>All Directions</directions>
+                        <Link>
+                            <toid>4000000030237888</toid>
+                            <Line>
+                                <coordinatesEN>528363,179760,528297,179699</coordinatesEN>
+                                <coordinatesLL>-.15201,51.502137,-.152983,51.501604</coordinatesLL>
+                            </Line>
+                        </Link>
+                    </Street>
+                </Streets>
+            </CauseArea>
+        </Disruption>
+        <Disruption id='154556'>
+            <status>Active</status>
+            <severity>Moderate</severity>
+            <levelOfInterest>Medium</levelOfInterest>
+            <category>Works</category>
+            <subCategory>Utility</subCategory>
+            <startTime>2017-04-02T07:00:00Z</startTime>
+            <endTime>2017-06-15T22:59:00Z</endTime>
+            <location>[A302,A4] Grosvenor Place (SW1W,SW1X) (Westminster)</location>
+            <corridor>Inner Ring</corridor>
+            <comments>[A302] Grosvenor Place (SW1) (Northbound) between Halkin Street and Grosvenor Crescent - The bus lane is closed for works. </comments>
+            <currentUpdate>Traffic is slow northbound on Grosvenor Place with tailbacks Approaching Hobart Place. Park Lane is slow moving southbound onto Hyde Park Corner. Expect delays.</currentUpdate>
+            <remarkTime>2017-05-11T17:44:03Z</remarkTime>
+            <lastModTime>2017-05-11T17:44:03Z</lastModTime>
+            <CauseArea>
+                <DisplayPoint>
+                    <Point>
+                        <coordinatesEN>528412,179711</coordinatesEN>
+                        <coordinatesLL>-.126744,51.500506</coordinatesLL>
+                    </Point>
+                </DisplayPoint>
+                <Streets>
+                    <Street>
+                        <name>A4 (W1J)</name>
+                        <closure>Open</closure>
+                        <directions>All Directions</directions>
+                        <Link>
+                            <toid>4000000030237881</toid>
+                            <Line>
+                                <coordinatesEN>528510.912,179796.062,528420,179738</coordinatesEN>
+                                <coordinatesLL>-.149867,51.502428,-.151197,51.501927</coordinatesLL>
+                            </Line>
+                        </Link>
+                        <Link>
+                            <toid>4000000030342607</toid>
+                            <Line>
+                                <coordinatesEN>528420,179738,528381,179736</coordinatesEN>
+                                <coordinatesLL>-.151197,51.501927,-.15176,51.501917</coordinatesLL>
+                            </Line>
+                        </Link>
+                    </Street>
+                    <Street>
+                        <name>[B310] Grosvenor Crescent (SW1X)</name>
+                        <closure>Open</closure>
+                        <directions>All Directions</directions>
+                        <Link>
+                            <toid>4000000030237888</toid>
+                            <Line>
+                                <coordinatesEN>528363,179760,528297,179699</coordinatesEN>
+                                <coordinatesLL>-.15201,51.502137,-.152983,51.501604</coordinatesLL>
+                            </Line>
+                        </Link>
+                    </Street>
+                </Streets>
+            </CauseArea>
+        </Disruption>
+      </Disruptions>
+    </Root>
