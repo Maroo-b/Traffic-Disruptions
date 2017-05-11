@@ -22,5 +22,9 @@ function initMap() {
     });
   })
 }
-google.maps.event.addDomListener(window, "load", initMap);
 
+$.get('/disruption', function(){
+  initMap();
+}).fail(function(){
+  console.log("Fail to fetch Disruptions");
+})
